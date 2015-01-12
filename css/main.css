@@ -44,7 +44,6 @@ body {
     background-color: red;
 }
 
-
 .clock-face {
     height: 300px;
     width: 300px;
@@ -68,7 +67,8 @@ body {
     position: absolute;
     left: calc(50% - 7px);
     bottom: calc(50% - 7px);
-    transition: 1s;
+    transition: 3s;
+    transform-origin: center bottom;
 }
 
 .hand-minute {
@@ -77,6 +77,7 @@ body {
     left: calc(50% - 7px);
     bottom: calc(50% - 7px);
     transition: 6s;
+    transform-origin: center bottom;
 }
 
 .center {

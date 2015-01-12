@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    background-color: #e2e2e2;
+    background-color: #000;
 }
 
 img {
@@ -34,19 +34,35 @@ img {
     display: block;
 }
 
-.polaroid {
+.clock-face {
     background-color: #fff;
     border-radius: 8px;
     padding: 1em;
     width: 400px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
     position: relative;
 }
 
-.polaroid figcaption {
+.hand hand-hour {
     position: absolute;
     bottom: calc(1em + 5px);
-    background-color: rgba(0,0,0,0.5);
+    padding: 0.5em;
+    color: #fff;
+    left: 1em;
+    right: 1em;
+}
+
+.hand hand-minute {
+    position: absolute;
+    bottom: calc(1em + 5px);
+    padding: 0.5em;
+    color: #fff;
+    left: 1em;
+    right: 1em;
+}
+
+.center {
+    position: absolute;
+    bottom: calc(1em + 5px);
     padding: 0.5em;
     color: #fff;
     left: 1em;

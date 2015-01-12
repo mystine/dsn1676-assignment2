@@ -29,6 +29,20 @@ body {
     background-color: #000;
 }
 
+.btn {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.btn-foward {
+
+}
+
+.btn-backward {
+
+}
+
 .clock-face {
     height: 300px;
     width: 300px;
@@ -43,20 +57,20 @@ body {
 .hand-hour {
     width: 14px;
     position: absolute;
-    left: calc(50% - 5px);
-    bottom: calc(50% - 10px);
+    left: calc(50% - 7px);
+    bottom: calc(50% - 7px);
 }
 
 .hand-minute {
     width: 14px;
     position: absolute;
-    left: calc(50% - 5px);
-    bottom: calc(50% - 10px)
+    left: calc(50% - 7px);
+    bottom: calc(50% - 7px)
 }
 
 .center {
     width: 28px;
     position: absolute;
-    left: calc(50% - 7px);
+    left: calc(50% - 14px);
     bottom: calc(50% - 14px);
 }

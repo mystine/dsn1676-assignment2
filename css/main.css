@@ -25,43 +25,22 @@ html {
   box-sizing: inherit;
 }
 
-
-
-img {
-    width: 100%;
-    display: block;
-}
-
 .clock-face {
-    border-radius: 8px;
-    padding: 1em;
-    width: 400px;
-    position: relative;
+    height: 300px;
+    width: 300px;
+    background-image: url(.../images/clock-face.svg)
 }
+
 
 .hand-hour {
-    position: absolute;
-    bottom: calc(1em + 5px);
-    padding: 0.5em;
-    color: #fff;
-    left: 1em;
-    right: 1em;
+    
+    width: 14px;
 }
 
 .hand-minute {
-    position: absolute;
-    bottom: calc(1em + 5px);
-    padding: 0.5em;
-    color: #fff;
-    left: 1em;
-    right: 1em;
+    width: 14px;
 }
 
 .center {
-    position: absolute;
-    bottom: calc(1em + 5px);
-    padding: 0.5em;
-    color: #fff;
-    left: 1em;
-    right: 1em;
+    width: 28px;
 }

@@ -28,19 +28,25 @@ html {
 .clock-face {
     height: 300px;
     width: 300px;
-    background-image: url(.../images/clock-face.svg)
+    background-image: url(../images/clock-face.svg);
+    background-color: #000;
 }
 
 
 .hand-hour {
-    
     width: 14px;
+    position: absolute;
 }
 
 .hand-minute {
     width: 14px;
+    position: relative;
 }
 
 .center {
     width: 28px;
+    position: absolute;
+    top: 78px;
+    right: 4em;
+    left: 1em;
 }

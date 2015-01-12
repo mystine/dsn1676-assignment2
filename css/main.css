@@ -32,11 +32,8 @@ body {
 .btn {
     text-decoration: none;
     color: #fff;
-    opacity: 0.5;
-}
-
-.btn:hover {
-    opacity: 1;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .btn-foward {
@@ -50,7 +47,6 @@ body {
 }
 
 
-
 .clock-face {
     height: 300px;
     width: 300px;
@@ -61,6 +57,13 @@ body {
     position: relative;
 }
 
+.clock-face:hover .hand-hour {
+    transform: rotate(360deg);
+}
+
+.clock-face:hover .hand-minute {
+    transform: rotate(360deg);
+}
 
 .hand-hour {
     width: 14px;

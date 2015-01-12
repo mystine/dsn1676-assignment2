@@ -38,12 +38,10 @@ body {
 
 .btn-foward {
     background-color: green;
-    border-radius: 10px;
 }
 
 .btn-backward {
     background-color: red;
-    border-radius: 10px;
 }
 
 
@@ -70,13 +68,15 @@ body {
     position: absolute;
     left: calc(50% - 7px);
     bottom: calc(50% - 7px);
+    transition: 1s;
 }
 
 .hand-minute {
     width: 14px;
     position: absolute;
     left: calc(50% - 7px);
-    bottom: calc(50% - 7px)
+    bottom: calc(50% - 7px);
+    transition: 6s;
 }
 
 .center {

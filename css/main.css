@@ -35,21 +35,21 @@ body {
     opacity: 0.5;
 }
 
+.btn:hover {
+    opacity: 1;
+}
+
 .btn-foward {
     background-color: green;
     border-radius: 10px;
-    
 }
 
 .btn-backward {
     background-color: red;
     border-radius: 10px;
+}
 
-.btn:hover {
-    opacity: 1;
-}
-    
-}
+
 
 .clock-face {
     height: 300px;

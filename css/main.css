@@ -39,7 +39,7 @@ main {
     margin: 1em;
 }
 
-.btn-foward {
+.btn-forward {
     background-color: green;
     display: inline-block;
     width: 6em;
@@ -55,8 +55,12 @@ main {
     line-height: 6em;
 }
 
-
 .btn-forward:hover {
+	background-color: white;
+	color: black;
+}
+
+.btn-backward:hover {
 	background-color: white;
 	color: black;
 }

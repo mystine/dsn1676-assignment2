@@ -29,31 +29,30 @@ body {
     background-color: #000;
 }
 
+main {
+    text-align: center;
+}
+
 .btn {
     text-decoration: none;
     color: #fff;
-    margin-left: 50%;
-    margin-right: 50%;
 }
 
 .btn-foward {
     background-color: green;
     display: inline-block;
-    padding: 2em 1em;
     width: 6em;;
     top: 50px;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 50%;
+    line-height: 6em;
 }
 
 .btn-backward {
     background-color: red;
     display: inline-block;
-    padding: 2em 1em;
     width: 6em;
-    top; 50px;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 50%;
+    line-height: 6em;
 }
 
 .clock-face {

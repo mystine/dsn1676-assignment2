@@ -55,6 +55,12 @@ main {
     line-height: 6em;
 }
 
+
+.btn-forward:hover {
+	background-color: white;
+	color: black;
+}
+
 .clock-face {
     height: 300px;
     width: 300px;

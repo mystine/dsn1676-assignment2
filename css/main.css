@@ -78,7 +78,7 @@ main {
     position: absolute;
     left: calc(50% - 7px);
     bottom: calc(50% - 7px);
-    transition: 3s;
+    transition: 6s;
     transform-origin: center bottom;
 }
 

@@ -36,13 +36,13 @@ main {
 .btn {
     text-decoration: none;
     color: #fff;
+    margin: 1em;
 }
 
 .btn-foward {
     background-color: green;
     display: inline-block;
     width: 6em;;
-    top: 50px;
     border-radius: 50%;
     line-height: 6em;
 }

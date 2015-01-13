@@ -40,9 +40,9 @@ body {
     background-color: green;
     display: inline-block;
     padding: 2em 1em;
-    width: auto;
+    width: 6em;;
     top: 50px;
-    border-radius: 40px;
+    border-radius: 50px;
     text-align: center;
 }
 
@@ -50,11 +50,10 @@ body {
     background-color: red;
     display: inline-block;
     padding: 2em 1em;
-    width: auto;
+    width: 6em;
     top; 50px;
-    border-radius: 40px;
+    border-radius: 50px;
     text-align: center;
-    float: center;
 }
 
 .clock-face {

@@ -54,6 +54,7 @@ body {
     top; 50px;
     border-radius: 40px;
     text-align: center;
+    float: center;
 }
 
 .clock-face {
